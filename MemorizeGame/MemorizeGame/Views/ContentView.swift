@@ -13,12 +13,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    var viewModel: EmojiMemoryGame
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-       NavigationView{
-            ScrollView(.vertical, showsIndicators: false) {
-                ForEach(0..<viewModel.cards.count ){ _ in
+//       NavigationView{
+//            ScrollView(.vertical, showsIndicators: false) {
+//                ForEach(0..<viewModel.cards.count ){ _ in
                     HStack{
                         ForEach(self.viewModel.cards) { card in
                             
@@ -29,9 +29,9 @@ struct ContentView: View {
                     .padding()
                     .foregroundColor(Color.orange)
                     .font(Font.largeTitle)
-                }
-            }.navigationBarTitle(Text("MVVM 示例"),displayMode: .inline)
-        } 
+//                }
+//            }.navigationBarTitle(Text("MVVM 示例"),displayMode: .inline)
+//        } 
     }
 }
 
