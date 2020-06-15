@@ -16,22 +16,15 @@ struct ContentView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-//       NavigationView{
-//            ScrollView(.vertical, showsIndicators: false) {
-//                ForEach(0..<viewModel.cards.count ){ _ in
-                    HStack{
-                        ForEach(self.viewModel.cards) { card in
-                            
-                            CardView(card: card)
-                                .onTapGesture {self.viewModel.choose(card: card)}
-                        }
-                    }
-                    .padding()
-                    .foregroundColor(Color.orange)
-                    .font(Font.largeTitle)
-//                }
-//            }.navigationBarTitle(Text("MVVM 示例"),displayMode: .inline)
-//        } 
+
+        Grid(viewModel.cards) { card in
+                CardView(card: card).onTapGesture {
+                    self.viewModel.choose(card: card)    
+            }.padding(5)
+            }
+            .padding()
+            .foregroundColor(Color.orange)
+            .font(Font.largeTitle)
     }
 }
 
