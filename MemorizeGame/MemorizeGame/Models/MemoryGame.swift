@@ -2,8 +2,8 @@
 //  MemoryGame.swift
 //  MemorizeGame
 //
-//  Created by 丁海能 on 2020/6/11.
-//  Copyright © 2020 丁海能. All rights reserved.
+//  Created by Findaaron on 2020/6/11.
+//  Copyright © 2020 Findaaron. All rights reserved.
 //
 /*
  Model - MVVM 数据模型
