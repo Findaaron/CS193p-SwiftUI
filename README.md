@@ -1,5 +1,5 @@
 # CS193p-SwiftUI
-斯坦福大学 CS193p 2020 春季课程 ：使用 SwiftUI 开发 iOS 应用程序（学习用途），Paul Hegarty 教授讲授。
+Stanford University's course CS193p (Developing Applications for iOS using SwiftUI Paul Hegarty 
 
 ## Links
 
