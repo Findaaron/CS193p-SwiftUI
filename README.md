@@ -1,5 +1,5 @@
 # CS193p-SwiftUI
-Stanford University's course CS193p (Developing Applications for iOS using SwiftUI Paul Hegarty 
+Stanford University's course CS193p - Developing Applications for iOS using SwiftUI by Prof. Paul Hegarty 
 
 ## Links
 
@@ -9,38 +9,27 @@ Stanford University's course CS193p (Developing Applications for iOS using Swift
 
 - Swift
 
-- 函数式编程
+- Functional programming
 
-- 响应式 UI 开发模式（含 MVVM）
+- Reactive UI (MVVM）
 
-- 面向对象的数据库（Object - Oriented Databases）
+- Object - Oriented Databases
 
 - CHI
 
-- API 设计
+- API Design
 
-- 语言设计
+-Language Design
 
-- 动画
+- Animation
 
-- 网络
+- Network
 
-- 多线程
+- Multi Thread
 
 ## Content
 
-- 课程结构 及 SwiftUI介绍
-
-- MVVM 和 Swift 类型系统
-
-- 响应式 UI + 协议 + 布局
-
-- Grid + 枚举 + 可选类型
-
-- ViewBuilder + Shape + ViewModifier
-
-- 动画
-
-- Colors + Images + 多线程
-
-- UserDefaults + Gestures + JSON
+1. [Course Logistics and Intro to SwiftUI](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf)
+2. [MVVM and the Swift Type System](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)
+3. [Reactive UI Protocols Layout](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf)
+4. [Grid enum Optionals](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l4.pdf)
