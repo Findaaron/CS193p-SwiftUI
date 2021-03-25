@@ -4,6 +4,7 @@ Stanford University's course CS193p - Developing Applications for iOS using Swif
 ## Links
 
 - [CS193p](https://cs193p.sites.stanford.edu)
+- [Summary of CS193p](summary.md)
 
 ## Overview
 
